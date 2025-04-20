@@ -1,0 +1,11 @@
+// import 'package:dio/dio.dart';
+
+// need to remove auth header
+Future<String> submitOTP(String orderId, String otp) async{
+  try{
+    // await Dio().patch('http://evegramservice-env.ap-south-1.elasticbeanstalk.com/inventory/mark-order-delivered/$orderId');
+    return 'ok';
+  }catch(e){
+    return e.toString();
+  }
+}
