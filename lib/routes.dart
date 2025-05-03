@@ -9,16 +9,10 @@ final GoRouter router = GoRouter(
       path: '/otp/:id',
       builder: (context, state) {
         final id = state.pathParameters['id']!;
-        print('ID: $id');
+        // print('ID: $id');
         return OtpPage(id: id);
       },
     ),
   ],
   errorBuilder: (context, state) => const PageNotFound(),
-    // redirect: (_, state) {
-    //   if (state.path != '/otp/:id') {
-    //     return '/';
-    //   }
-    //   return null;
-    // },
 );

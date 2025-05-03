@@ -5,7 +5,7 @@ class PageNotFound extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('page not found opened');
+    // print('page not found opened');
     return Scaffold(
       body: Center(
         child: Column(
